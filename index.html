@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PetVet</title>
+    <link rel="stylesheet" href="css/reg.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script src="js/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <header class="s-header">
+      
+      
+      <div class="header-logo">
+        <a class="site-logo" href="index.html">
+          <img src="images/logo.png" alt="Homepage" />
+        </a>
+      </div>
+    </header>
+    <!-- end s-header -->
+
+    <!-- home
+    ================================================== -->
+    <section
+      id="home"
+      class="s-home target-section"
+      data-parallax="scroll"
+      data-image-src="images/hero-bg.jpg"
+      data-natural-width="3000"
+      data-natural-height="2000"
+      data-position-y="center"
+    >
+      <div class="overlay"></div>
+      <div class="shadow-overlay"></div>
+
+      <div class="home-content">
+        <div class="row home-content__main">
+          <br />
+          <h1>
+            Добро пожаловать
+
+            <br />
+            на сайт ветеринарной клиники PetVet!
+          </h1>
+
+          <h3>
+            Мы являемся специализированным центром заботы о здоровье ваших
+            питомцев.
+
+            <br />
+            Наша команда опытных ветеринаров и медсестер всегда готова прийти на
+            помощь, чтобы обеспечить вашим питомцам наилучший уход.<br />
+            Наша команда опытных ветеринаров и медсестер всегда готова прийти на
+            помощь, чтобы обеспечить вашим питомцам наилучший уход.<br />
+          </h3>
+
+          <div class="home-content__buttons">
+            <a href="form_reg.html" class="smoothscroll btn btn--stroke">
+              О нас
+            </a>
+
+            <a href="pricelist.html" class="smoothscroll btn btn--stroke">
+              Услуги
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      $(function () {
+        var button = $(".button");
+
+        function switchToNext() {
+          var _this = $(this);
+
+          if (_this.hasClass("active")) return false;
+          else {
+            $(".button.active").removeClass("active");
+            _this.addClass("active");
+          }
+        }
+
+        button.on("click", switchToNext);
+      });
+    </script>
+    <div class="container66">
+      <h1>О нас</h1>
+    </div>
+    <div class="container">
+      <div class="title">О нас</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="">
+              <span class=""
+                >Добро пожаловать на сайт ветеринарной клиники PetVet! Мы
+                являемся специализированным центром заботы о здоровье ваших
+                питомцев. Наша команда опытных ветеринаров и медсестер всегда
+                готова прийти на помощь, чтобы обеспечить вашим питомцам
+                наилучший уход. Мы предлагаем широкий спектр услуг, включая
+                профилактические осмотры, вакцинацию, лечение и многое другое.
+              </span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container77">
+      <h1>Услуги</h1>
+    </div>
+    <div class="container12">
+      <!-- Основной контейнер -->
+      <div class="catalog">
+        <!-- Блок каталога -->
+        <div class="catalog__flex">
+          <!-- Родитеский блок сетки -->
+          <div class="catalog__col">
+            <div class="catalog__card card">
+              <div class="card__title">Профилактический осмотр - 1000р</div>
+              <div class="card__text">
+                Это полный осмотр вашего питомца ветеринаром, который включает проверку общего состояния здоровья, измерение веса, температуры и т.д.
+
+              </div>
+              <div class="card__button"><a href="">Купить</a></div>
+            </div>
+          </div>
+          <div class="catalog__col">
+            <div class="catalog__card card">
+              <div class="card__title">Вакцинация - 500 рублей</div>
+              <div class="card__text">
+                Мы используем только высококачественные вакцины, чтобы защитить вашего питомца от серьезных заболеваний, таких как бешенство, чумка и т.п.
+              </div>
+              <div class="card__button"><a href="">Купить</a></div>
+            </div>
+          </div>
+          <div class="catalog__col">
+            <div class="catalog__card card">
+              <div class="card__title">Лечение - от 2000 до 5000 рублей</div>
+              <div class="card__text">
+                Мы предлагаем индивидуальный подход к каждому пациенту и подбираем оптимальное лечение, исходя из его потребностей и диагноза.              </div>
+              <div class="card__button"><a href="">Купить</a></div>
+            </div>
+          </div>
+          <div class="catalog__col">
+            <div class="catalog__card card">
+              <div class="card__title">Кастрация/Стерелизация - 3000 рублей</div>
+              <div class="card__text">
+                Эта процедура помогает предотвратить нежелательную беременность и снизить уровень агрессии у животных.              </div>
+              <div class="card__button"><a href="">Купить</a></div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container88">
+      <h1>Регистрация/Авторизация</h1>
+    </div>
+    <div class="container1">
+      <div class="title">Авторизация</div>
+
+      <div class="content">
+        <form method="post" action="to_sql.php">
+          <script>
+            function barabere() {
+              document.getElementById("bebronium").style.display = "flex";
+            }
+            function barabere2() {
+              document.getElementById("bebronium").style.display = "none";
+            }
+          </script>
+          <span class="details">Тип</span>
+          <div class="radio-form">
+            <label class="radio-control">
+              <input
+                type="radio"
+                name="types"
+                value="vrem"
+                onclick="barabere()"
+              />
+              <span class="radio-input">
+                <br /><br /><br />
+                <span>Регистрация</span>
+              </span>
+            </label>
+            <div class="radio-form1">
+              <label class="radio-control">
+                <input
+                  type="radio"
+                  name="types"
+                  value="postoy"
+                  onclick="barabere2()"
+                />
+                <span class="radio-input">
+                  <br /><br /><br />
+                  <span>Авторизация</span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input
+                class="input-color"
+                name="email"
+                type="text"
+                placeholder="Введите Email"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Пароль</span>
+              <input
+                class="input-color"
+                id="password"
+                name="password"
+                type="text"
+                placeholder="Введите пароль"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                required
+              />
+            </div>
+          </div>
+          
+          <div id="bebronium" class="user-details1">
+            <div class="input-box">
+              <span class="details">Подтвердите пароль</span>
+              <input
+                class="input-color"
+                id="password_2"
+                name="password_2"
+                type="text"
+                placeholder="Подтвердите пароль"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                required
+              />
+            </div>
+
+            
+              <div id="message">
+                <h3>Пароль должен:</h3>
+                <p id="letter" class="invalid">Иметь<b>буквы</b> нижнего регистра</p>
+                <p id="capital" class="invalid">Иметь<b>буквы</b> верхнего регистра</p>
+                <p id="number" class="invalid">Некоторые<b>цифры</b></p>
+                <p id="length" class="invalid">Минимум <b>8 символов</b></p>
+              </div>
+            
+              <script>
+                var myInput = document.getElementById("password");
+                var letter = document.getElementById("letter");
+                var capital = document.getElementById("capital");
+                var number = document.getElementById("number");
+                var length = document.getElementById("length");
+                
+                // When the user clicks on the password field, show the message box
+                myInput.onfocus = function() {
+                    document.getElementById("message").style.display = "block";
+                }
+                
+                // When the user clicks outside of the password field, hide the message box
+                myInput.onblur = function() {
+                    document.getElementById("message").style.display = "none";
+                }
+                
+                // When the user starts to type something inside the password field
+                myInput.onkeyup = function() {
+                  // Validate lowercase letters
+                  var lowerCaseLetters = /[a-z]/g;
+                  if(myInput.value.match(lowerCaseLetters)) {  
+                    letter.classList.remove("invalid");
+                    letter.classList.add("valid");
+                  } else {
+                    letter.classList.remove("valid");
+                    letter.classList.add("invalid");
+                  }
+                  
+                  // Validate capital letters
+                  var upperCaseLetters = /[A-Z]/g;
+                  if(myInput.value.match(upperCaseLetters)) {  
+                    capital.classList.remove("invalid");
+                    capital.classList.add("valid");
+                  } else {
+                    capital.classList.remove("valid");
+                    capital.classList.add("invalid");
+                  }
+                
+                  // Validate numbers
+                  var numbers = /[0-9]/g;
+                  if(myInput.value.match(numbers)) {  
+                    number.classList.remove("invalid");
+                    number.classList.add("valid");
+                  } else {
+                    number.classList.remove("valid");
+                    number.classList.add("invalid");
+                  }
+                  
+                  // Validate length
+                  if(myInput.value.length >= 8) {
+                    length.classList.remove("invalid");
+                    length.classList.add("valid");
+                  } else {
+                    length.classList.remove("valid");
+                    length.classList.add("invalid");
+                  }
+                }
+                </script>
+            <br><br>
+            <div class="container3">
+              <span class="details">Фото</span>
+              <div class="avatar-upload">
+                <div class="avatar-edit">
+                  <input
+                    type="file"
+                    id="imageUpload"
+                    name="imageus"
+                    accept=".png, .jpg, .jpeg"
+                  />
+                  <label for="imageUpload"></label>
+                </div>
+                <div class="avatar-preview">
+                  <div
+                    id="imagePreview"
+                    style="background-image: url(images/rg.jpg)"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <script>
+              function readURL(input) {
+                if (input.files && input.files[0]) {
+                  var reader = new FileReader();
+                  reader.onload = function (e) {
+                    $("#imagePreview").css(
+                      "background-image",
+                      "url(" + e.target.result + ")"
+                    );
+                    $("#imagePreview").hide();
+                    $("#imagePreview").fadeIn(650);
+                  };
+                  reader.readAsDataURL(input.files[0]);
+                }
+              }
+              $("#imageUpload").change(function () {
+                readURL(this);
+              });
+            </script>
+          </div>
+
+          
+          <br /><br />
+          <div class="button">
+            <input type="submit" value="Вперёд" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Java Script
+  ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
